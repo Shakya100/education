@@ -1,0 +1,541 @@
+@media screen and (max-width:337px){
+  .top-nav .image {
+    width: 140px !important;
+    height: auto !important;
+    margin-left: 0px !important;
+  }
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Top Nav */
+.top-nav {
+  background-color: white;
+}
+
+.top-nav .logo {
+  width: 70px;
+  height: auto;
+}
+
+.top-nav .image {
+  width: 200px;
+  height: auto;
+  margin-left: 90px;
+}
+
+.top-nav ul li a {
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #868491;
+}
+
+.top-nav ul li .active {
+  color: #b7e546;
+}
+
+.top-nav ul li a:hover {
+  color: #b7e546;
+  transition: 0.6s all ease;
+}
+
+.top-nav .nav-btn {
+  background-color: #b7e546;
+  font-size: 14px;
+  padding: 8px 35px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Banner */
+.banner {
+  background-image: url("../image/banner1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 624px;
+  text-align: center;
+  background-position: top;
+}
+
+
+@media screen and (min-width: 1042px) and (max-width: 1110px) {
+  .banner h1 {
+    padding-top: 80px !important;
+  }
+}
+
+@media screen and (min-width: 570px) and (max-width: 1042px) {
+  .banner h1 {
+    padding-top: 120px !important;
+    font-size: 70px !important;
+  }
+}
+
+@media screen and (min-width: 487px) and  (max-width: 570px) {
+  .banner h1 {
+    padding-top: 100px !important;
+    font-size: 60px !important;
+  }
+}
+
+@media screen and (min-width: 346px) and (max-width: 487px) {
+  .banner h1 {
+    padding-top: 70px !important;
+    font-size: 40px !important;
+  }
+}
+
+@media screen  and (max-width: 346px) {
+  .banner h1 {
+    padding-top: 50px !important;
+    font-size: 30px !important;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 384px) {
+  .banner {
+    height: 400px;
+  }
+
+  .custom-shape-divider-bottom-1655548653 {
+    top: 328px !important;
+  }
+}
+
+
+.banner h1 {
+  padding-top: 170px;
+  color: blanchedalmond;
+  font-weight: 900;
+  font-size: 100px;
+  margin-bottom: 10px;
+  font-family: oswald;
+}
+
+.banner a{
+  background-color: #000000;
+  font-size: 14px;
+  padding: 8px 35px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+/* Start Training Course */
+.training-course {
+  margin-top: 50px;
+}
+
+.training-course img {
+  width: 100%;
+  height: 200px;
+}
+
+.training-course h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.training-course h5 {
+  text-align: center;
+  font-weight: bold;
+  color: gray;
+  font-size: 17px;
+}
+
+.training-course .card .card-title {
+  color: #868491;
+  font-weight: 700;
+  text-align: left;
+}
+
+.training-course .card p {
+  font-size: 14px;
+}
+
+/* Award Winning */
+.maincardaward {
+  margin-top: 100px;
+  background-image: url("../image/card1bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.award-winning h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  padding-top: 30px;
+}
+
+.award-winning p {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  font-weight: 700;
+}
+
+.maincardaward .cardaward {
+  padding-bottom: 30px;
+}
+
+.maincardaward .cardaward .card img {
+  margin-top: 40px;
+}
+
+.maincardaward .cardaward .card {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.maincardaward .cardaward .card h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.maincardaward .cardaward .card p {
+  margin-top: 20px;
+  font-size: 14px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.maincardaward .cardaward .card-text {
+  padding-bottom: 15px;
+}
+
+/* footer */
+footer {
+  background-color: #000000a8;
+}
+
+footer .footer-logo {
+  width: 130px;
+  height: auto;
+  margin-left: 30%;
+  padding-bottom: 10px;
+}
+
+footer h5 {
+  font-weight: bold;
+  color: white;
+}
+
+footer ul li a {
+  text-decoration: none !important;
+  color: wheat;
+}
+
+footer ul li a:hover {
+  color: wheat;
+}
+
+@media screen and (max-width: 768px) {
+  footer .footer-logo {
+    margin-left: 0px;
+  }
+}
+
+/* Our Story */
+.our-story {
+  margin-top: 50px;
+}
+
+.our-story .h2 {
+  font-weight: bold;
+}
+
+.our-story .p {
+  color: gray;
+  font-weight: bold;
+}
+
+.our-story .row {
+  margin-top: 50px;
+}
+
+.our-story img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.our-story h3 {
+  font-weight: bold;
+  color: #868491;
+}
+
+.our-story .hr {
+  width: 50px;
+  height: 4px;
+  background-color: #868491;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+  .our-story img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Learning Level */
+.learning-level {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.learning-level .h2 {
+  font-weight: bold;
+}
+
+.learning-level .p {
+  color: gray;
+  font-weight: bold;
+}
+
+.learning-level .row {
+  margin-top: 50px;
+}
+
+.learning-level .cardaward .card img {
+  margin-top: 40px;
+}
+
+.learning-level .cardaward .card {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.learning-level .cardaward .card h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.learning-level.cardaward .card p {
+  margin-top: 20px;
+  font-size: 14px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.learning-level .cardaward .card-text {
+  padding-bottom: 15px;
+}
+
+/* Contact */
+.contact .h2 {
+  font-weight: 700;
+}
+
+.contact .p {
+  font-weight: 700;
+  color: #868491;
+}
+
+.contact .row {
+  margin-top: 50px;
+}
+
+.contact .row textarea {
+  width: 100%;
+  border: 1px solid rgba(190, 185, 185, 0.705);
+  border-radius: 3px;
+  height: 200px;
+}
+
+.contact .row .right-content h1 {
+  font-weight: bold;
+  color: #868491;
+  font-size: 21px;
+}
+
+.contact .row .right-content p {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.contact .row .right-content p:hover {
+  color: #868491;
+  transition: 0.6s all ease;
+}
+
+.contact .row .right-content a {
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.contact .row .right-content a:hover {
+  color: #868491;
+  transition: 0.6s all ease;
+}
+
+.contact .row .form-btn {
+  background-color: #000000;
+  font-size: 14px;
+  padding: 7px 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  margin-top: 5px;
+}
+
+.contact .row iframe {
+  width: 100%;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  height: 280px;
+}
+
+.contact-information h4 {
+  font-weight: 900;
+  color: #868491;
+}
+
+/* service */
+.service-card .card:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75) !important;
+  transition: 0.6s all ease;
+}
+
+.service-card .card {
+  text-align: center;
+}
+
+.service-card h3 {
+  margin-top: 20px;
+  font-size: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.service-card p {
+  font-size: 14px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Modal */
+.modal .modal-content{
+  background-image: url("../image/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#enrollnow h4{
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+ margin-left: 35%;
+ font-size: 30px;
+}
+
+#enrollnow form{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+ 
+}
+
+#enrollnow form label{
+  font-weight: bold;
+  color: white;
+  font-size: 21px;
+}
+
+#enrollnow form input[type="text"]{
+ color: rgb(255, 255, 255);
+ font-size: 12px;
+ border: none;
+ border-bottom: 2px solid rgb(125, 219, 36);
+ background-color: transparent;
+}
+
+#enrollnow form input[type="email"]{
+  color: rgb(255, 255, 255);
+ font-size: 12px;
+ border: none;
+ border-bottom: 2px solid rgb(125, 219, 36);
+ background-color: transparent;
+ }
+
+ #enrollnow form input[type="tel"]{
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  border: none;
+  border-bottom: 2px solid rgb(125, 219, 36);
+  background-color: transparent;
+ }
+
+ #enrollnow form textarea{
+ width: 150px;
+ color: gray;
+ font-size: 12px;
+ border: none;
+ border-bottom: 2px solid rgb(125, 219, 36);
+ background-color: transparent;
+ height: 15px;
+ }
+
+/*  */
+.footer-copyright{
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-copyright a{
+  text-decoration: none;
+  color:rgb(125, 219, 36);
+}
+
+
+/* Our Visitor */
+@media screen and (max-width:310px){
+  .our-vistor img{
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/*  */
+
+.bhawan img{
+  width: 260px;
+  height: auto;
+  float: left;
+}
+ 
+
+
+
